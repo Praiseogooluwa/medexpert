@@ -112,18 +112,26 @@ function AboutPage() {
 
           <div className="lg:col-span-3 bg-purple-50/60 border border-purple-100 rounded-2xl p-6 sm:p-8">
             <p className="text-foreground text-base leading-relaxed mb-4">
-              Hi, I am <strong>Maryam</strong>, and I built MedExpert as my final year Computer Science project.
-              I wanted to work on something with a real problem at its core. Healthcare in Nigeria is often
-              difficult to navigate, not because the doctors are not there, but because most people do not know
-              where to start. They go to the wrong hospital, see the wrong specialist, or wait too long before acting.
+              I am <strong>Maryam</strong>, a Computer Scientist with a strong interest in design systems and full
+              project development. MedExpert is my final year project, built around a real and pressing problem in
+              healthcare accessibility in Nigeria.
             </p>
             <p className="text-foreground text-base leading-relaxed mb-4">
-              MedExpert gives you a starting point. You describe your symptoms, and it suggests possible conditions,
-              the type of specialist to see, and Nigerian hospitals that have that specialist. It also includes
-              basic self-care advice while you wait for an appointment.
+              In many cases, the challenge in Nigerian healthcare is not the absence of doctors, but knowing where to
+              begin. Patients often struggle with identifying the right hospital, choosing the correct specialist, or
+              seeking help early enough before conditions worsen. This delay or misdirection can lead to avoidable
+              complications.
+            </p>
+            <p className="text-foreground text-base leading-relaxed mb-4">
+              MedExpert is designed to bridge that gap by providing a clear and guided starting point. Users can
+              describe their symptoms, and the system suggests possible conditions, recommends the appropriate type
+              of specialist, and helps locate Nigerian hospitals where such specialists are available. It also
+              provides basic self-care guidance while users wait to see a medical professional.
             </p>
             <p className="text-muted-foreground text-sm italic">
-              Built with care as a final year Computer Science project.
+              The goal of MedExpert is not to replace medical professionals, but to make healthcare navigation
+              simpler, faster, and more informed, helping users take the right first step toward getting the care
+              they need.
             </p>
           </div>
         </div>
