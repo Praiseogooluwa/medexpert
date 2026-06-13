@@ -93,3 +93,6 @@ There is a password protected admin panel at `/admin` for editing the knowledge 
 
 - Data persists per browser via `localStorage`, so edits made in the admin panel will not be visible on another device.
 - This is a prototype, not a real medical product. It gives guidance, not a diagnosis. Always consult a qualified healthcare professional for any medical concerns.
+
+```
+https://medexpert-xi.vercel.app
