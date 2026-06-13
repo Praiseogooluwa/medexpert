@@ -13,7 +13,7 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — MedExpert" },
-      { name: "description", content: "Meet Abdulmumin Maryam and the story behind MedExpert, a final year CS project." },
+      { name: "description", content: "Meet Maryam and the story behind MedExpert, a final year CS project." },
     ],
   }),
   component: AboutPage,
@@ -97,15 +97,20 @@ function AboutPage() {
 
         <div className="grid lg:grid-cols-5 gap-8 mb-16 items-start">
           <div className="lg:col-span-2">
-            <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-purple-100 to-fuchsia-50 aspect-[4/5]">
-              <img
-                src="/images/about-photo.jpg"
-                alt="Abdulmumin Maryam"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute bottom-0 inset-x-0 p-5 bg-gradient-to-t from-[#15052b]/90 to-transparent">
-                <div className="text-white font-bold text-lg">Abdulmumin Maryam</div>
-                <div className="text-purple-200 text-sm">Final Year Project, 2026</div>
+            <div className="relative">
+              {/* Soft purple glow behind the photo */}
+              <div className="absolute -inset-4 bg-gradient-to-br from-purple-500/40 via-fuchsia-400/25 to-purple-300/30 rounded-[2rem] blur-2xl" />
+
+              <div className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-purple-600 via-purple-500 to-fuchsia-500 aspect-[4/5] ring-1 ring-white/20 shadow-2xl shadow-purple-900/20">
+                <img
+                  src="/images/about-photo.jpg"
+                  alt="Maryam"
+                  className="w-full h-full object-cover object-top"
+                />
+                <div className="absolute bottom-0 inset-x-0 p-5 bg-gradient-to-t from-[#15052b]/90 to-transparent">
+                  <div className="text-white font-bold text-lg">Maryam</div>
+                  <div className="text-purple-200 text-sm">Final Year Project, 2026</div>
+                </div>
               </div>
             </div>
           </div>
