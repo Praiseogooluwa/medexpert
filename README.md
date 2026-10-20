@@ -2,7 +2,7 @@
 
 A frontend-only medical expert system that helps people in Nigeria figure out which doctor to see. You describe your symptoms, and the app suggests possible conditions, the right type of specialist, and hospitals near you that have that specialist. It also gives basic self-care advice for each condition.
 
-Built by **Abdulmumin Maryam** as a final year Computer Science project.
+Built by **@Praiseogooluwa** as a final year Computer Science project for **Abdulmumin Maryam**.
 
 ## What it does
 
